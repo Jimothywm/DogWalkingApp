@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_contacts"
+        android:icon="@drawable/ic_baseline_contacts_24"
+        android:title="Contacts"/>
+
+    <item
+        android:id="@+id/ic_map"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/ic_paths"
+        android:icon="@drawable/ic_baseline_bookmarks_24"
+        android:title="Paths"/>
+
+    <item
+        android:id="@+id/ic_CSVs"
+        android:icon="@drawable/ic_baseline_file_upload_24"
+        android:title="CSVs"/>
+
+</menu>

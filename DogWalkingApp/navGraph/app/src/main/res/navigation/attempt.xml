@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/attempt"
+    app:startDestination="@id/mapsActivity">
+
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.myapplication.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.myapplication.LoginActivity"
+        android:label="LoginActivity" />
+    <activity
+        android:id="@+id/signupActivity"
+        android:name="com.example.myapplication.SignupActivity"
+        android:label="SignupActivity" />
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.myapplication.fragments.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/pathsFragment"
+        android:name="com.example.myapplication.fragments.PathsFragment"
+        android:label="fragment_paths"
+        tools:layout="@layout/fragment_paths" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/friendRequestsFragment"
+        android:name="com.example.myapplication.fragments.friendRequestsFragment"
+        android:label="fragment_friend_requests"
+        tools:layout="@layout/fragment_friend_requests" />
+    <fragment
+        android:id="@+id/newFragment"
+        android:name="com.example.myapplication.fragments.NewFragment"
+        android:label="fragment_new"
+        tools:layout="@layout/fragment_new" />
+    <fragment android:id="@+id/placeholder2" />
+    <fragment android:id="@+id/placeholder3" />
+</navigation>
